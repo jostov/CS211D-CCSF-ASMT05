@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    * Name: Joseph Overbeck
+    * Professor: Dr. Moghtanei
+    * Class: CS211D
+    * Assignment: 05
+    * Fun Fact: Ants cannot be seriously injured from impact
+    * with the ground after being dropped from any height,
+    * because they simply don't have enough mass!
+    -->
+<resources>
+
+    <string name="app_name">QuizOTron</string>
+    <string name="play">Play</string>
+    <string name="scores">Scores</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--GameScreen stuff-->
+    <string name="title_activity_game_screen">gameScreen</string>
+    <string name="capitol">Capitol</string>
+    <string name="state">State</string>
+    <string name="submit">Submit</string>
+
+    <!--Score screen stuff-->
+    <string name="highscores">High Scores</string>
+    <string name="currentScore">You Scored : </string>
+    <string name="goToSplash">Return to start</string>
+
+
+    <!--ScoreScreen stuff-->
+    <string name="title_activity_score_screen">scoreScreen</string>
+
+</resources>

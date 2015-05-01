@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    * Name: Joseph Overbeck
+    * Professor: Dr. Moghtanei
+    * Class: CS211D
+    * Assignment: 05
+    * Fun Fact: Ants cannot be seriously injured from impact
+    * with the ground after being dropped from any height,
+    * because they simply don't have enough mass!
+    -->
+<resources>
+    <string-array name="DataBase">
+        <item>ALABAMA,Montgomery</item>
+        <item>ALASKA,Juneau</item>
+        <item>ARIZONA,Phoenix</item>
+        <item>ARKANSAS,Little Rock</item>
+        <item>CALIFORNIA,Sacramento</item>
+        <item>COLORADO,Denver</item>
+        <item>CONNECTICUT,Hartford</item>
+        <item>DELAWARE,Dover</item>
+        <item>FLORIDA,Tallahassee</item>
+        <item>GEORGIA,Atlanta</item>
+        <item>HAWAII,Honolulu</item>
+        <item>IDAHO,Boise</item>
+        <item>ILLINOIS,Springfield</item>
+        <item>INDIANA,Indianapolis</item>
+        <item>IOWA,Des Moines</item>
+        <item>KANSAS,Topeka</item>
+        <item>KENTUCKY,Frankfort</item>
+        <item>LOUISIANA,Baton Rouge</item>
+        <item>MAINE,Augusta</item>
+        <item>MARYLAND,Annapolis</item>
+        <item>MASSACHUSETTS,Boston</item>
+        <item>MICHIGAN,Lansing</item>
+        <item>MINNESOTA,Saint Paul</item>
+        <item>MISSISSIPPI,Jackson</item>
+        <item>MISSOURI,Jefferson City</item>
+        <item>MONTANA,Helena</item>
+        <item>NEBRASKA,Lincoln</item>
+        <item>NEVADA,Carson City</item>
+        <item>NEW HAMPSHIRE,Concord</item>
+        <item>NEW JERSEY,Trenton</item>
+        <item>NEW MEXICO,Santa Fe</item>
+        <item>NEW YORK,Albany</item>
+        <item>NORTH CAROLINA,Raleigh</item>
+        <item>NORTH DAKOTA,Bismarck</item>
+        <item>OHIO,Columbus</item>
+        <item>OKLAHOMA,Oklahoma City</item>
+        <item>OREGON,Salem</item>
+        <item>PENNSYLVANIA,Harrisburg</item>
+        <item>RHODE ISLAND,Providence</item>
+        <item>SOUTH CAROLINA,Columbia</item>
+        <item>SOUTH DAKOTA,Pierre</item>
+        <item>TENNESSEE,Nashville</item>
+        <item>TEXAS,Austin</item>
+        <item>UTAH,Salt Lake City</item>
+        <item>VERMONT,Montpelier</item>
+        <item>VIRGINIA,Richmond</item>
+        <item>WASHINGTON,Olympia</item>
+        <item>WEST VIRGINIA,Charleston</item>
+        <item>WISCONSIN,Madison</item>
+        <item>WYOMING,Cheyenne</item>
+    </string-array>
+ </resources>

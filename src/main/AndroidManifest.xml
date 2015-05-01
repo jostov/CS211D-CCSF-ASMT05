@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    * Name: Joseph Overbeck
+    * Professor: Dr. Moghtanei
+    * Class: CS211D
+    * Assignment: 05
+    * Fun Fact: Ants cannot be seriously injured from impact
+    * with the ground after being dropped from any height,
+    * because they simply don't have enough mass!
+    -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cs211d.joverbeck.quizotron" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".QuizSplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gameScreen"
+            android:label="@string/title_activity_game_screen" >
+        </activity>
+        <activity
+            android:name=".scoreScreen"
+            android:label="@string/title_activity_score_screen" >
+        </activity>
+    </application>
+
+</manifest>
