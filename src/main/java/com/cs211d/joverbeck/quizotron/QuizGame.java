@@ -9,6 +9,8 @@ package com.cs211d.joverbeck.quizotron;
  * because they simply don't have enough mass!
  */
 
+import android.util.Log;
+
 import java.io.Serializable;
 import java.util.Random;
 
@@ -40,6 +42,7 @@ public class QuizGame implements Serializable
                 instDeck[1][k] = states[1][(i * 5) + k];
             }
             deck[i] = new QuizCard(instDeck);
+            Log.d("Card bullshit", deck[i].getAnswers()[0] +" " + deck[i].getAnswers()[1] + " " + deck[i].getAnswers()[2] +" " + deck[i].getAnswers()[3]); //Serious shenanigans here
         }
 
     }

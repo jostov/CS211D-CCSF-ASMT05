@@ -48,7 +48,7 @@ public class QuizSplashScreen extends ActionBarActivity
                         gameScreen.class);
                 long user = addUser(((EditText) findViewById(
                         R.id.nameInput)).getText().toString());
-                QuizGame quiz = startGame(user);
+                QuizGame quiz = startGame(user); //Good god, man. Variables shouldn't share names with methods. I'll be leaving this here for posterity's sake.
                 i.putExtra("game", quiz);
                 startActivity(i);
             }
@@ -186,6 +186,7 @@ public class QuizSplashScreen extends ActionBarActivity
         cursor.close();
         if (cnt != 50)
         {
+            dbHandler.dropStates(db);
             populateDatabase();
         }
     }

@@ -56,6 +56,10 @@ public class DbHelper extends SQLiteOpenHelper
         db.execSQL(STATCAPTABLE_CREATE);
 
     }
+    public void dropStates(SQLiteDatabase db){
+        db.execSQL(DELETE_STATCAP);
+        db.execSQL(STATCAPTABLE_CREATE);
+    }
 
     /**
      * *********************onCreate()*****************************
